@@ -8,11 +8,11 @@
 
 ul {
     list-style: none;
-   
+
 }
 
 #box {
-    width: 1536px;  
+    width: 1536px;
     margin: 0 auto;
     background-color: #000;
     overflow: hidden;
@@ -40,7 +40,11 @@ ul {
     left: -44px;
 
 }
-.nav li img:hover{transform: scale(1.5)}
+
+.nav li img:hover {
+    transform: scale(1.5);
+}
+
 #moon {
     opacity: 0;
 }
@@ -68,14 +72,22 @@ ul {
     left: 27px;
 }
 
-#message{height: 30px; width: 150px; margin-top:  50px; outline: none; background: rgba(112,55,222,0.5); border: 0;}
+#message {
+    height: 30px;
+    width: 150px;
+    margin-top: 50px;
+    outline: none;
+    background: rgba(112, 55, 222, 0.5);
+    border: 0;
+
+}
 
 #send {
     color: #000;
     height: 30px;
-    background: rgba(255,255,222,0.7);
+    background: rgba(255, 255, 222, 0.7);
     outline: none;
-     border: 0;
+    border: 0;
 }
 
 .main {
@@ -105,8 +117,8 @@ ul {
     width: 300px;
     color: #fff;
     position: absolute;
-    top: 60px;
-    left: 70px;
+    top:180px;
+    left: 350px;
 }
 
 .text h3 {
@@ -136,11 +148,11 @@ ul {
 }
 
 .list li span {
-    font-size: 30px;
+    font-size: 24px;
     color: #fff;
-    width: 115px;
+    width: 140px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     float: left;
 }
 
@@ -159,14 +171,18 @@ ul {
 }
 
 .list li h4 {
-    width: 150px;
+    width:200px;
     text-align: center;
     float: right;
     color: #fff;
-    margin-top: 30px;
-    font-size: 30px;
+    margin-top: 55px;
+    font-size:16px;
 }
-.list li:hover{transform: scale(1.1)}
+
+.list li:hover {
+    transform: scale(1.1)
+}
+
 .list li i {
     width: 240px;
     margin: 0 auto;
@@ -175,7 +191,7 @@ ul {
 
     float: right;
     color: #fff;
-    margin-top: 40px;
+
 
 }
 
@@ -186,24 +202,14 @@ ul {
     float: left;
 }
 
-
-#wenduji {
-    width: 320px;
-    float: left;
-    width: 100%;
-    height: auto;
-    color:#fff;
-    padding-left: 70px;
-    padding-bottom: 80px;
-    height: 252px;
-
-}
-
 .indoor li {
     color: #fff;
 }
-.indoor img {width: 200px; height: 200px;
 
+.indoor img {
+    width: 200px;
+    height: 200px;
+}
 .indoor li p {
     text-align: center;
     float: left;
@@ -213,12 +219,12 @@ ul {
 #dian {
     position: absolute;
     top: 22px;
-    left: 130px;
+    left: 230px;
 }
 
 #bigDian {
     position: absolute;
-    top: 0;
+    top: 200px;
     left: 530px;
 }
 
